@@ -1,0 +1,79 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and typography */
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  header p {
+    font-size: 1.2em;
+    color: #777;
+  }
+  
+  /* Main quotes container styling */
+  .quotes-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Individual quote block styling */
+  .quote-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Quote text styling */
+  .quote-text {
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  /* Author styling */
+  .quote-author {
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Evidence screenshot styling */
+  .evidence {
+    display: block;
+    max-width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #aaa;
+    font-size: 0.9em;
+  }
